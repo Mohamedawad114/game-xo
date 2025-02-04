@@ -1,0 +1,47 @@
+:root{
+    --main-color: rgb(92, 28, 152);
+}
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+} 
+body{
+    background-color: rgb(35, 33, 33);
+}
+.game {
+    width:540px ;
+    text-align: center;
+    color: white;
+     margin: auto;
+
+    font-family: system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .dashboard{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 20px 0;
+    background-color:var(--main-color);
+    font-size: 50px;
+  }
+  span{
+    color: rgb(224, 228, 96);
+  }
+.square{
+    float:left;
+    background-color:var(--main-color) ;
+    margin:  4px ;
+    height: 168px;
+    width: 168px;
+    font-size: 92px;
+    font-weight: 500;
+}
+.square:hover{
+    cursor: pointer;
+    background-color: rgb(99, 21, 142);;
+}
